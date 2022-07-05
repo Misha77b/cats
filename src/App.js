@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import {useDispatch } from 'react-redux';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import { getCats } from './API/cats/cats.thunks';
 
 function App() {
+  const dispatch = useDispatch();
+  dispatch(getCats())
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        Hello, Pets Paw
+      </div>
+    </BrowserRouter>
   );
 }
 
