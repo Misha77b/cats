@@ -3,6 +3,25 @@
 } */
 
 .App{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr; */
+}
+
+.main-section,
+.secondary-section {
   display: flex;
   flex-direction: column;
+}
+
+.main-section {
+  margin-left: 121px;
+  margin-top: 38px;
+  /* background: red; */
+  /* width: 50%; */
+}
+
+.secondary-section{
+  /* background: green; */
+  /* width: 50%; */
 }
