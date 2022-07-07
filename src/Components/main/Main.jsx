@@ -1,8 +1,11 @@
 import React from 'react'
+import HugLayout from '../hugLayout/HugLayout'
 
 const Main = () => {
   return (
-    <div className='main'>Main</div>
+    <div className='main'>
+      <HugLayout />
+    </div>
   )
 }
 

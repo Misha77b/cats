@@ -7,6 +7,7 @@ const Header = () => {
   return (
     <div className='header'>
       <img className='logo-img' src="../assets/logo/logo.png" alt="logo" />
+      {/* change colort theme btn */}
     </div>
   )
 }

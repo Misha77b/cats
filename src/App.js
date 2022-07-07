@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { getCats } from './API/cats/cats.thunks';
 import Header from './Components/header/Header';
 import Home from './Components/home/Home';
+import Main from './Components/main/Main'
 
 function App() {
   const dispatch = useDispatch();
@@ -18,7 +19,7 @@ function App() {
           <Home />
         </div>
         <div className='secondary-section'>
-          <img src='../assets/homePage/girl-and-pet.png' alt='girl-and-pet' />
+          <Main />
         </div>
       </div>
     </BrowserRouter>
