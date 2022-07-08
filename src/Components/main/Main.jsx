@@ -1,10 +1,10 @@
 import React from 'react'
-import HugLayout from '../hugLayout/HugLayout'
+import HomeLayout from '../homeLayout/HomeLayout'
 
 const Main = () => {
   return (
     <div className='main'>
-      <HugLayout />
+      <HomeLayout />
     </div>
   )
 }

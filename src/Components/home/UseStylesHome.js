@@ -12,6 +12,14 @@ const UseStylesHome = makeStyles({
             // ['@media (max-width: 425px)']: {
             //     height: '60px',
             // }
+
+
+            // for sticky position think more and for header-logo too
+            // position: '-webkit-sticky',
+            // position: 'sticky',
+            // width: '446px',
+            // height: '450px',
+            position: 'fixed'
         },
         '.home-title': {
             marginTop: '80px',
