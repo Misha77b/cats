@@ -7,7 +7,6 @@ const btnStyles = {
   fontSize: '12px',
   fontWeight: '500',
   letterSpacing: '2px',
-  color: '#FF868E',
   width: '138px',
   height: '36px',
   borderRadius: '10px',
