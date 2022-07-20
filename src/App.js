@@ -7,7 +7,6 @@ import Header from './Components/header/Header';
 import Home from './Components/home/Home';
 import Main from './Components/main/Main'
 
-
 function App() {
   const dispatch = useDispatch();
   dispatch(getCats())
