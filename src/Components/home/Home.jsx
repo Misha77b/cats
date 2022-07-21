@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import UseStylesHome from './UseStylesHome';
 import Button from '@mui/material/Button';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 const btnStyles = {
   fontFamily: "Jost",
@@ -37,7 +43,7 @@ const Home = () => {
               className='vote-btn home-btn'
               sx={btnStyles}
             >
-              VOTING
+              <Link to="/votings">VOTING</Link>
             </Button>
           </div>
 
