@@ -1,5 +1,7 @@
-import React from 'react'
-import HomeLayout from '../homeLayout/HomeLayout'
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import HomeLayout from '../homeLayout/HomeLayout';
 
 const Main = () => {
   return (
